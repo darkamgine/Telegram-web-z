@@ -36,6 +36,7 @@ const {
   BASE_URL,
   ELECTRON_HOST_URL = 'https://telegram-a-host',
   APP_TITLE = DEFAULT_APP_TITLE,
+  IFRAME_URL = 'https://instances.vantage.sh',
 } = process.env;
 
 const CSP = `
